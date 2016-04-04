@@ -26,7 +26,7 @@ for i = 1:size(CA,1)
     end
 end
 
-x = [1 2 1 4];
+x = [1 1 1 1];
 
 exits = count/size(data,1);
 
@@ -36,4 +36,12 @@ for i = 1:3
     end
 end
 
-find
+max = 1;
+for i = 2:size(exits,2)
+    if(exits(1,i) > exits(M1,max))
+        max = i;
+    end
+end
+
+exits = zeros(1,3);
+exits(1,max) = 1
