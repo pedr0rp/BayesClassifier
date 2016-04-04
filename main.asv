@@ -26,7 +26,7 @@ for i = 1:size(CA,1)
     end
 end
 
-x = [1 2 0 4];
+x = [1 2 1 4];
 
 exits = count/size(data,1);
 
@@ -36,4 +36,4 @@ for i = 1:3
     end
 end
 
-
+find
